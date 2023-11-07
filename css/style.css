@@ -1,0 +1,256 @@
+#wrap {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgba(240, 255, 255, 0.7);
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+}
+
+.header-wrap {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-box {
+    width: 80%;
+    height: 100px;
+}
+
+.users {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 45px;
+}
+
+.users li {
+    margin-left: 15px;
+    line-height: 45px;
+}
+
+.users li a {
+    font-size: 12px;
+}
+
+nav {
+    float: right;
+    width: 700px;
+    height: 55px;
+    /* display: flex; */
+    
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu {
+    height: 55px;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    
+}
+
+.main-menu:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.main-menu a {
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+.sub-menu {
+    visibility: hidden;
+    z-index: 9999;
+    
+}
+
+.sub-menu li {
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border-bottom: 1px solid #fff; */
+}
+
+.sub-menu li:hover {
+    background-color: #adadad;
+}
+
+.sub-menu li:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.sub-menu li:last-child {
+    border-bottom: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+/* main영역 */
+main {
+    width: 100%;
+    padding: 150px 0 80px 0;
+}
+
+
+/* facil-title 시작 */
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+}
+
+.line {
+    margin: 30px auto;
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+}
+
+.facil-intro {
+    text-align: center;
+}
+
+
+/* tab-menu 시작 */
+.tab-menu-wrap {
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.tab-menu li {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.tab-menu li:first-child {
+    border-bottom: 3px solid #616161;
+}
+
+.tab-menu {
+    padding: 30px 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.show-area {
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cont {
+    display: none;
+}
+
+#tab1 {
+    display: block;
+}
+
+.show-area img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.show-area  {
+    position: relative;
+
+}
+
+.show-area p {
+    padding: 15px 30px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+
+/* footer 시작 */
+
+footer {
+    padding: 20px 0;
+    width: 100%;
+    background-color: #9EA2A9;
+    font-size: 12px;
+}
+
+.footer-wrap {
+    max-width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.footer-wrap ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+}
+
+.footer-logo {
+    padding-top: 0;
+}
+
+.copyright p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.tell p:first-child {
+    margin-bottom: 10px;
+}
+
+.footer-sns {
+    width: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sns a {
+    font-size: 25px;
+    color: #555;
+}
+
+.footer-sns a:hover {
+    color: tomato;
+}
+/* footer 끝 */
